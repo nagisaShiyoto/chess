@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClCompile Include="board.cpp" />
     <ClCompile Include="piece.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
