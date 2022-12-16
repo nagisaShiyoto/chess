@@ -39,6 +39,6 @@ public:
 // assistance functions //
 // -------------------- //
 private:
-	std::string preloadBoard();
+	std::string preloadBoard(); // loading the board
 };
 
