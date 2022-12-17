@@ -23,8 +23,8 @@ protected:
 // methodes //
 // -------- //
 public:
-	// constractor & deconstractor
-	virtual bool validMove(std::string src, std::string dest) = 0;
+	// methods
+	virtual bool validMove(std::string dest) = 0;
 
 	// getters & setters
 	virtual char getSign() const;

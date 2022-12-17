@@ -28,7 +28,7 @@ public:
 
 	bool isFree(int row, int col);
 	void movePiece(char src, char place);
-	void convertStringToArrray(std::string brd);
+	void convertStringToArrray(std::string board);
 	void createThreatsBoard(char** board);
 
 	// getters
@@ -39,6 +39,6 @@ public:
 // assistance functions //
 // -------------------- //
 private:
-	std::string preloadBoard(); // loading the board
+	void preloadBoard(); // loading the board
 };
 

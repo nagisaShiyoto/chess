@@ -13,6 +13,7 @@ private:
 	
 	Player _black;
 	Player _white;
+	Board _board;
 	Pipe _pipe;
 	int _turn;
 
@@ -21,16 +22,16 @@ private:
 // ------- //
 public:
 	// constructor & distructor
-	Manager(Player const black,Player const white,Pipe const pipe,int const turn);
+	Manager();
 	~Manager();
 
 	// getters & setters
-	void seTurn(int const turn);
+	void setTurn(int const turn);
 
 	Player getWhite() const;
 	Player getBlack() const;
 	Pipe getPipe() const;
-	int geTurn() const;
+	int getTurn() const;
 
 
 	//fanc
