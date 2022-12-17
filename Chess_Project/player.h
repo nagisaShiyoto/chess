@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 class Player
 {
 // ----------------- //
@@ -7,21 +8,20 @@ class Player
 private:
 	int _team;
 
+
 // ------- //
 // methods //
 // ------- //
 public:
 	// constractor
 	Player(int team);
-	~Player();
+	//~Player();
 
 	// fanc
-	int validMove(std::string const move);
+	int validMove(std::string const move);//after pieces
 	
 	// getters
 	std::string getMove()const;
-	int geTeam()const;
-
-
+	int getTeam()const;
 };
 
