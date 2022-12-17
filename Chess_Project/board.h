@@ -24,7 +24,7 @@ private:
 public:
 	// constractor
 	Board();
-	~Board();
+	//~Board();
 
 	bool isFree(int row, int col);
 	void movePiece(char src, char place);
@@ -32,6 +32,7 @@ public:
 	void createThreatsBoard(char** board);
 
 	// getters
+
 
 
 

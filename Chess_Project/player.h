@@ -6,6 +6,7 @@ class Player
 // private veriables //
 // ----------------- //
 private:
+
 	int _team;
 
 
@@ -15,6 +16,7 @@ private:
 public:
 	// constractor
 	Player(int team);
+	Player();
 	//~Player();
 
 	// fanc

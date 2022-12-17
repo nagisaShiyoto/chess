@@ -22,8 +22,8 @@ private:
 // ------- //
 public:
 	// constructor & distructor
-	Manager();
-	~Manager();
+	Manager(Pipe pipe);
+	//~Manager();
 
 	// getters & setters
 	void setTurn(int const turn);
@@ -31,7 +31,9 @@ public:
 	Player getWhite() const;
 	Player getBlack() const;
 	Pipe getPipe() const;
+	Board getBoard()const;
 	int getTurn() const;
+
 
 
 	//fanc

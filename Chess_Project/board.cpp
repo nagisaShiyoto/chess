@@ -16,10 +16,7 @@ void Board::movePiece(char src, char place)
 
 void Board::convertStringToArrray(std::string board)
 {
-	if ()
-	{
-
-	}
+	
 }
 
 void Board::createThreatsBoard(char** board)
