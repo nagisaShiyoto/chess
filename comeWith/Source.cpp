@@ -18,6 +18,8 @@ using std::string;
 
 void main()
 {
+	//in case it was open
+	system("taskkill /F /IM chessGraphics.exe");
 	//open the file automaticlly
 	int result = _spawnl(_P_NOWAIT, "chessGraphics.exe", "chessGraphics.exe", nullptr);
 
