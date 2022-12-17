@@ -4,7 +4,7 @@
 #include "../comeWith/Pipe.h"
 class Player;
 class Boeard;
-class manager
+class Manager
 {
 // ----------------- //
 // private veriables //
@@ -20,7 +20,22 @@ private:
 // methods //
 // ------- //
 public:
+	// constructor & distructor
+	Manager(Player const black,Player const white,Pipe const pipe,int const turn);
+	~Manager();
 
-	void sendReaction(int code);
+	// getters & setters
+	void seTurn(int const turn);
+
+	Player getWhite() const;
+	Player getBlack() const;
+	Pipe getPipe() const;
+	int geTurn() const;
+
+
+	//fanc
+	Player playerTurn(std::string sBoeard);
+	void startGame();
+	void sendReaction(int const code);
 };
 
