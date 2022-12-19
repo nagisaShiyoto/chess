@@ -1,5 +1,10 @@
 #pragma once
 #include <iostream>
+#include <vector>
+#include "piece.h"
+
+class Piece;
+
 class Player
 {
 // ----------------- //
@@ -8,7 +13,7 @@ class Player
 private:
 
 	int _team;
-
+	std::vector<Piece*> pieces;
 
 // ------- //
 // methods //
