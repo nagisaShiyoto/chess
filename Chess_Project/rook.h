@@ -1,6 +1,6 @@
 #pragma once
 #include "piece.h"
-class Roock :public Piece
+class Rook :public Piece
 {
 };
 

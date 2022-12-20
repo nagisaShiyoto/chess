@@ -139,7 +139,7 @@
     <ClInclude Include="player.h" />
     <ClInclude Include="pown.h" />
     <ClInclude Include="queen.h" />
-    <ClInclude Include="roock.h" />
+    <ClInclude Include="rook.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\comeWith\Source.cpp" />

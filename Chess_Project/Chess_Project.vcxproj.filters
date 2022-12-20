@@ -45,7 +45,7 @@
     <ClInclude Include="queen.h">
       <Filter>Header Files\pieces</Filter>
     </ClInclude>
-    <ClInclude Include="roock.h">
+    <ClInclude Include="rook.h">
       <Filter>Header Files\pieces</Filter>
     </ClInclude>
     <ClInclude Include="bishop.h">
