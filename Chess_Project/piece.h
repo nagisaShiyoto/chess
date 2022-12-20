@@ -24,7 +24,7 @@ protected:
 // -------- //
 public:
 	// methods
-	virtual bool validMove(std::string dest) = 0;
+	virtual int validMove(const std::string dest) = 0;
 
 	// getters & setters
 	virtual char getSign() const;

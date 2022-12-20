@@ -11,18 +11,20 @@ class Board
 {
 
 // ----------------- //
-// private veriables //
+// veribals          //
 // ----------------- //
 private:
 	std::string _stringBrd;
+	
+public:
 	char _board[8][8];
 	int _threatsBoard[8][8]; // 0 - not, 1 - white, 2 - black, 3 - both
-
 // ------- //
 // methods //
 // ------- //
 public:
 	// constractor
+	Board(std::string stringBrd);
 	Board();
 	//~Board();
 
@@ -32,7 +34,10 @@ public:
 	void createThreatsBoard(char** board);
 
 	// getters
+	char getP(std::string place);
 
+	//setters
+	void setBorad();
 
 
 

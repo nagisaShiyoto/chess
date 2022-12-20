@@ -95,7 +95,7 @@
     <ClCompile Include="queen.cpp">
       <Filter>Source Files\pieces</Filter>
     </ClCompile>
-    <ClCompile Include="rock.cpp">
+    <ClCompile Include="rook.cpp">
       <Filter>Source Files\pieces</Filter>
     </ClCompile>
   </ItemGroup>

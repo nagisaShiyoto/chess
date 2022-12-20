@@ -153,7 +153,7 @@
     <ClCompile Include="player.cpp" />
     <ClCompile Include="pown.cpp" />
     <ClCompile Include="queen.cpp" />
-    <ClCompile Include="rock.cpp" />
+    <ClCompile Include="rook.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
