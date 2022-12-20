@@ -24,13 +24,13 @@ protected:
 // -------- //
 public:
 	// methods
-	virtual bool validMove(std::string dest) = 0;
+	virtual int validMove(std::string dest) = 0;
 
 	// getters & setters
 	virtual char getSign() const;
 	virtual int getRow() const;
 	virtual int getCol() const;
-	virtual void setPos(const int row, const int col);
+	virtual void setPos(std::string newPlace);
 	virtual Player* getPlayer() const;
 	virtual Board* getBoard() const;
 };
